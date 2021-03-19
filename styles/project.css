@@ -1,16 +1,35 @@
+.buttons{
+    justify-content: center;
+}
+
+.btn{
+    border:black solid 2px;
+    border-radius: 5px;
+    margin:10px;
+    padding:10px;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+
+.hero-content{
+    margin:0;
+}
 
 .hero{
     background: #eeeeee;
-    padding: 50px;
+    padding: 50px 10px 50px 10px;
  }
 
 h2{
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
 h1 {
     font-family: 'Redressed', cursive;
+    text-align: center;
+    color:#0b6623;
 };
 
 
