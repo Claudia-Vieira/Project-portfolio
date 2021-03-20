@@ -1,11 +1,21 @@
 .space{
-    padding:50px
+    padding:30px
 }
 
 @media(max-width:576px){
     .flowers{
         background-image: url(/images/flower\ background.jpg);
         background-size: 500px 300px;
+    }
+    .cats{
+        background-image: url(/images/cat\ background.jpg);
+        background-size: 550px 350px;
+        padding: 15px;
+    }
+    .animals{
+        background-image: url(/images/birds\ background.jpg);
+        background-size: 550px 300px;
+        padding: 15px;
     }
 }
 
@@ -21,6 +31,7 @@
 
 .flowers{
     margin-top: 50px;
+    padding:15px;
 };
 
 
@@ -38,6 +49,7 @@ img{
     margin:10px;
     padding:10px;
     box-shadow: 5px 5px 10px grey;
+    background-color: white;
     
 }
 
