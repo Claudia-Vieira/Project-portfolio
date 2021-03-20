@@ -1,3 +1,24 @@
+@media(max-width:576px){
+    .flowers{
+        background-image: url(/images/flower\ background.jpg);
+        background-size: 500px 300px;
+    }
+}
+
+.text-explanation{
+    font-size: small;
+}
+
+.button-see-more{
+    justify-content: center;
+    max-width: fit-content;
+    font-size: small;
+}
+
+.flowers{
+    margin-top: 50px;
+};
+
 
 img{
     border: 5px ridge;
@@ -25,16 +46,17 @@ img{
     padding: 50px 10px 50px 10px;
  }
 
-h2{
+h2, p, a{
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
-h1 {
+h1, h3 {
     font-family: 'Redressed', cursive;
     text-align: center;
     color:#0b6623;
 };
+
 
 
