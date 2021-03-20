@@ -1,3 +1,7 @@
+.space{
+    padding:50px
+}
+
 @media(max-width:576px){
     .flowers{
         background-image: url(/images/flower\ background.jpg);
