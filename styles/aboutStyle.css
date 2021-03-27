@@ -1,7 +1,8 @@
-@media(min-width:576px){
-    .my-photo{
-        width: 80%;
-    }
+@media(min-width:768px){
+.my-description{
+    font-size: large;
+    padding: 20px;
+}
 }
 
 .buttons{
@@ -34,10 +35,16 @@
 
 
  .my-description{
-     padding: 3px;
+     padding-top: 10px;
  }
 
 
+.my-photo{
+    margin: auto;
+    max-height: 318px;
+    display: flex;
+    justify-content: center;
+}
 
 p, a{
     font-family: 'Quicksand', sans-serif;
