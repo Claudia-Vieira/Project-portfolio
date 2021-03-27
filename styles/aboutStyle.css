@@ -1,6 +1,7 @@
-
-img{
-    border: 5px ridge;
+@media(min-width:576px){
+    .my-photo{
+        width: 80%;
+    }
 }
 
 .buttons{
@@ -27,16 +28,35 @@ img{
     padding: 100px 10px 100px 10px;
  }
 
-h2, p, a{
+ .aboutMe{
+     padding:30px;
+ }
+
+
+ .my-description{
+     padding: 3px;
+ }
+
+
+
+p, a{
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 
-h1, h3 {
+h1{
     font-family: 'Redressed', cursive;
     text-align: center;
     color:white;
+    text-shadow: 5px 5px 2px #ff0000;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-size: 40px;
 }
 
 
