@@ -1,6 +1,6 @@
 .hero{
     background: #eeeeee;
-    padding: 50px 10px 50px 10px;
+    padding: 30px 10px 50px 10px;
 }
 
 .btn{
@@ -84,15 +84,22 @@ h1, h3 {
     .flowers{
         background-image: url(/images/flower\ background.jpg);
         background-size: 500px 300px;
+        background-position: center;
     }
     .cats{
         background-image: url(/images/cat\ background.jpg);
         background-size: 550px 350px;
         padding: 15px;
+        background-position-x: center;
     }
     .animals{
         background-image: url(/images/birds\ background.jpg);
         background-size: 550px 300px;
         padding: 15px;
+        background-position: center;
+    }
+    footer .social-media-links a{
+        font-size: small;
+        padding:5px 9px;
     }
 }

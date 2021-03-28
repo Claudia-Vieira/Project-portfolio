@@ -124,3 +124,10 @@ h3{
     padding: 20px;
 }
 }
+
+@media(max-width:576px){
+    footer .social-media-links a{
+        font-size: small;
+        padding:5px 9px;
+    }
+}
