@@ -93,3 +93,20 @@ nav a:hover, nav li.active a {
     color:green;
     font-weight: bold;
 }
+
+footer{
+    background: #eeeeee;
+}
+
+footer .social-media-links a{
+    color:#0b6623;
+    background:white;
+    padding:10px 15px;
+    border-radius:50%;
+    box-shadow: 5px 5px 10px grey;
+}
+
+footer .social-media-links a:hover{
+    color:white;
+    background-color: #0b6623;
+}
