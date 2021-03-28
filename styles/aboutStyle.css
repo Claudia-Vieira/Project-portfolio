@@ -1,5 +1,6 @@
 .hero{
     background-image: url("/images/lens.jpg");
+    background-position: center;
     background-size: cover;
     padding: 100px 10px 100px 10px;
 }
@@ -15,7 +16,7 @@
     margin-top: 2%;
 }
 
-.about-me-content h1{
+.content h1{
     font-family: 'Redressed', cursive;
     text-align: center;
     font-size: 40px;
@@ -24,13 +25,13 @@
     font-weight: normal;
 }
 
-.about-me-content h2{
+.content h2{
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     text-align: center; 
 }
 
-.about-me-content a:hover{
+.content a:hover{
     color: lightgreen;
 }
 
