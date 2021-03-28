@@ -1,46 +1,6 @@
-.space{
-    padding:30px
-}
-
-@media(max-width:576px){
-    .flowers{
-        background-image: url(/images/flower\ background.jpg);
-        background-size: 500px 300px;
-    }
-    .cats{
-        background-image: url(/images/cat\ background.jpg);
-        background-size: 550px 350px;
-        padding: 15px;
-    }
-    .animals{
-        background-image: url(/images/birds\ background.jpg);
-        background-size: 550px 300px;
-        padding: 15px;
-    }
-}
-
-.text-explanation{
-    font-size: small;
-}
-
-.button-see-more{
-    justify-content: center;
-    max-width: fit-content;
-    font-size: small;
-}
-
-.flowers{
-    margin-top: 50px;
-    padding:15px;
-}
-
-
-img{
-    border: 5px ridge;
-}
-
-.buttons{
-    justify-content: center;
+.hero{
+    background: #eeeeee;
+    padding: 50px 10px 50px 10px;
 }
 
 .btn{
@@ -53,26 +13,18 @@ img{
     
 }
 
-.hero-content{
-    margin:0;
+.text-explanation{
+    font-size: small;
 }
 
-.hero{
-    background: #eeeeee;
-    padding: 50px 10px 50px 10px;
- }
-
-h2, p, a{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    text-align: center;
+.button-see-more{
+    justify-content: center;
+    max-width: fit-content;
+    font-size: small;
 }
 
-h1, h3 {
-    font-family: 'Redressed', cursive;
-    text-align: center;
-    color:#0b6623;
-}
+
+
 
 nav li{
     list-style: none;
@@ -109,4 +61,38 @@ footer .social-media-links a{
 footer .social-media-links a:hover{
     color:white;
     background-color: #0b6623;
+}
+
+img{
+    border: 5px ridge;
+}
+
+
+h2, p, a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1, h3 {
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    color:#0b6623;
+}
+
+@media(max-width:576px){
+    .flowers{
+        background-image: url(/images/flower\ background.jpg);
+        background-size: 500px 300px;
+    }
+    .cats{
+        background-image: url(/images/cat\ background.jpg);
+        background-size: 550px 350px;
+        padding: 15px;
+    }
+    .animals{
+        background-image: url(/images/birds\ background.jpg);
+        background-size: 550px 300px;
+        padding: 15px;
+    }
 }
