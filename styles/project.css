@@ -74,5 +74,22 @@ h1, h3 {
     color:#0b6623;
 }
 
+nav li{
+    list-style: none;
+    margin:10px;
+}
 
+nav ul{
+    margin:0px;
+}
 
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+}
+
+nav a:hover, nav li.active a {
+    color:green;
+    font-weight: bold;
+}
